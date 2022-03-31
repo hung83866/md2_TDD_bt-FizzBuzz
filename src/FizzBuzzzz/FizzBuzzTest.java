@@ -30,5 +30,14 @@ class FizzBuzzTest {
         String result = FizzBuzz.fizz3Buzz5(a);
         assertEquals(exp,result);
     }
+    @Test
+    @DisplayName("case (%5 == 0) vs (%3!=0)")
+    void Test3() {
+        int a = 8;
+        String exp = ""+a;
+        String result = FizzBuzz.fizz3Buzz5(a);
+        assertEquals(exp,result);
+    }
+
 
 }
