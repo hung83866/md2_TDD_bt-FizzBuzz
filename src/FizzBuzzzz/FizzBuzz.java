@@ -6,7 +6,9 @@ public class FizzBuzz {
             if (a%5==0){
                 return "FizzBuss";
             }else return "Fizz";
+        }else if (a%5==0){
+            return "Buzz";
         }
-        return "";
+        return ""+ a ;
     }
 }
