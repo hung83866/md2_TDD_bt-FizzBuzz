@@ -14,4 +14,12 @@ class FizzBuzzTest {
         String result = FizzBuzz.fizz3Buzz5(a);
         assertEquals(exp,result);
     }
+    @Test
+    @DisplayName("case %3 == 0")
+    void Test1() {
+        int a = 9;
+        String exp = "Fizz";
+        String result = FizzBuzz.fizz3Buzz5(a);
+        assertEquals(exp,result);
+    }
 }
